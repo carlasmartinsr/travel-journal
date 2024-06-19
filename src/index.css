@@ -1,0 +1,135 @@
+
+#root{
+  padding: 0;
+  max-width: 100%;
+  text-align: unset;
+} 
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+body {
+  margin: 0;
+  font-family: "Delius", cursive;
+  color: #2B283A;
+}
+
+p{
+  margin: 0;
+}
+
+h1{
+  font-size: 1.6rem;
+}
+
+h2{
+  font-size:1.3rem ;
+  color: #80544C;
+  margin: 0 0 1em 0;
+  font-weight: bold;
+}
+
+@media (min-width: 580px) {
+  h2{
+    font-size:1.4rem;
+  }
+}
+
+header{
+  height:4em;
+  max-width: 100%;
+  background-color: #D1CCDC;
+  color: #80544C;
+  display: flex;
+  justify-content: center;
+  column-gap: 1em;
+  align-items: center;
+  font-family: "Merienda", cursive;
+  font-family: "Salsa", cursive;
+  letter-spacing: 0.15rem;
+  padding: 3.25em 0;
+  margin-bottom: 1.5em;
+}
+
+.logoImg{
+  width: 4.25em;
+}
+
+.cards{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2em 2em 2.25em 2em;
+  row-gap: 2.2em;
+}
+
+
+.card-container{
+  display: flex;
+  column-gap: 1.5em;
+  max-width: 39em;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  row-gap: 1.5em;
+  font-size: 0.8rem; 
+}
+
+@media (min-width: 580px) {
+  .card-container{
+    flex-wrap: nowrap;
+    font-size: 1rem;
+  }
+}
+
+.card-img{
+  background-repeat: no-repeat;
+  width: 30%;
+  object-fit: cover;
+  height: 17em;
+  border-radius: 8px;
+  display: block;
+}
+
+.card-location{
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.8em;
+}
+
+.card-location > i{
+  color:#ED6A5A;
+}
+
+.location-country{
+  text-transform: uppercase;
+  margin: 0 1em 0 0.5em;
+  letter-spacing: 0.15rem;
+  font-size: 0.8rem;
+}
+
+.location-link{
+  color: #918E9B;
+
+}
+
+.card-date{
+  font-weight: bold;
+  margin-bottom: 0.8em;
+}
+
+.card-description{
+  line-height:1.7;
+}
+
+
+
+
+
